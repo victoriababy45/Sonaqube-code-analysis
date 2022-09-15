@@ -23,7 +23,7 @@ pipeline {
       steps{
         sh 'mvn clean verify sonar:sonar \
   -Dsonar.projectKey=team3-pipeline \
-  -Dsonar.host.url=http://ec2-44-204-238-25.compute-1.amazonaws.com:9000 \
+  -Dsonar.host.url=http://ec2-52.87.202.212.compute-1.amazonaws.com:9000 \
   -Dsonar.login=sqp_e34b0d59b042e3bc0ffcda3036e6289e61cecec1'
       }
     }
